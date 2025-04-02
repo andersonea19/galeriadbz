@@ -1,0 +1,264 @@
+h1 {
+    font-size: 100px;
+    font-weight: 30;
+    text-align: center;
+    color: rgb(49, 149, 72);
+    text-shadow:  
+        0 0 20px black,  
+        0 0 20px black,  
+        0 0 30px black;
+}
+
+* {
+    margin: 5px;
+    border: 5px;
+}
+
+body{
+    background-image: url(images/shenglong.jpg);
+    background-size: cover; 
+    background-position: 100%; 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+    padding: 120px;
+}
+
+.row{
+    justify-content: center;
+    gap: 10px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 10px;
+}
+
+img {
+    width: 240px;
+    height: 300px;
+    margin: 3px;
+    border: 1px solid;
+    background-color: rgba(0, 0, 0, 0.408);
+    transition: transform 0.3s ease;
+    transition: box-shadow 0.1s ease;
+}
+
+img:hover {
+    background-color:rgba(8, 8, 8, 0.432);
+    border: none;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.408);
+}
+
+.row img:nth-of-type(1) {
+    filter: drop-shadow(5px 5px 20px yellow)
+}
+
+.row img:nth-of-type(2) {
+    filter: drop-shadow(5px 5px 20px gray)
+}
+
+.row img:nth-of-type(3) {
+    filter: drop-shadow(5px 5px 20px black)
+}
+
+.row img:nth-of-type(4) {
+    filter: drop-shadow(5px 5px 20px black)
+}
+
+.row img:nth-of-type(5) {
+    filter: drop-shadow(5px 5px 20px pink)
+}
+
+.row img:nth-of-type(6) {
+    filter: drop-shadow(5px 5px 20px rgb(14, 226, 14))
+}
+
+.row img:nth-of-type(7) {
+    filter: drop-shadow(5px 5px 20px lightblue)
+}
+
+.row img:nth-of-type(8) {
+    filter: drop-shadow(5px 5px 20px green)
+}
+
+.row img:nth-of-type(9) {
+    filter: drop-shadow(5px 5px 20px rgb(193, 193, 3))
+}
+
+.row img:nth-of-type(10) {
+    filter: drop-shadow(5px 5px 20px rgb(232, 182, 190))
+}
+
+.row img:nth-of-type(11) {
+    filter: drop-shadow(5px 5px 20px purple)
+}
+
+.row img:nth-of-type(12) {
+    filter: drop-shadow(5px 5px 20px red)
+}
+
+.row img:nth-of-type(13) {
+    filter: drop-shadow(5px 5px 20px pink)
+}
+
+.row img:nth-of-type(14) {
+    filter: drop-shadow(5px 5px 20px darkblue)
+}
+
+.row img:nth-of-type(15) {
+    filter: drop-shadow(5px 5px 20px red)
+}
+
+.row img:nth-of-type(16) {
+    filter: drop-shadow(5px 5px 20px lightgreen)
+}
+
+.row img:nth-of-type(17) {
+    filter: drop-shadow(5px 5px 20px purple)
+}
+
+.row img:nth-of-type(18) {
+    filter: drop-shadow(5px 5px 20px pink)
+}
+
+.row img:nth-of-type(19) {
+    filter: drop-shadow(5px 5px 20px brown)
+}
+
+.row img:nth-of-type(20) {
+    filter: drop-shadow(5px 5px 20px black)
+}
+
+.row img:nth-of-type(21) {
+    filter: drop-shadow(5px 5px 20px purple)
+}
+
+.row img:nth-of-type(22) {
+    filter: drop-shadow(5px 5px 20px rgb(181, 16, 181))
+}
+
+.row img:nth-of-type(23) {
+    filter: drop-shadow(5px 5px 20px black)
+}
+
+.row img:nth-of-type(24) {
+    filter: drop-shadow(5px 5px 20px darkblue)
+}
+
+.row img:nth-of-type(25) {
+    filter: drop-shadow(5px 5px 20px orange)
+}
+
+.row img:nth-of-type(26) {
+    filter: drop-shadow(5px 5px 20px aquamarine)
+}
+
+.row img:nth-of-type(27) {
+    filter: drop-shadow(5px 5px 20px pink)
+}
+
+.row img:nth-of-type(28) {
+    filter: drop-shadow(5px 5px 20px black)
+}
+
+.row img:nth-of-type(29) {
+    filter: drop-shadow(5px 5px 20px blue)
+}
+
+.row img:nth-of-type(30) {
+    filter: drop-shadow(5px 5px 20px red)
+}
+
+.row img:nth-of-type(31) {
+    filter: drop-shadow(5px 5px 20px pink)
+}
+
+.row img:nth-of-type(32) {
+    filter: drop-shadow(5px 5px 20px pink)
+}
+
+.row img:nth-of-type(33) {
+    filter: drop-shadow(5px 5px 20px lightblue)
+}
+
+.row img:nth-of-type(34) {
+    filter: drop-shadow(5px 5px 20px aquamarine)
+}
+
+.row img:nth-of-type(35) {
+    filter: drop-shadow(5px 5px 20px rgb(210, 18, 210))
+}
+
+.row img:nth-of-type(36) {
+    filter: drop-shadow(5px 5px 20px rgb(140, 140, 22))
+}
+
+.row img:nth-of-type(37) {
+    filter: drop-shadow(5px 5px 20px aquamarine)
+}
+
+.row img:nth-of-type(38) {
+    filter: drop-shadow(5px 5px 20px purple)
+}
+
+.row img:nth-of-type(39) {
+    filter: drop-shadow(5px 5px 20px orange)
+}
+
+.row img:nth-of-type(40) {
+    filter: drop-shadow(5px 5px 20px red)
+}
+
+.row img:nth-of-type(41) {
+    filter: drop-shadow(5px 5px 20px darkorange)
+}
+
+.row img:nth-of-type(42) {
+    filter: drop-shadow(5px 5px 20px rgb(127, 127, 93))
+}
+
+.row img:nth-of-type(43) {
+    filter: drop-shadow(5px 5px 20px darkblue)
+}
+
+.row img:nth-of-type(45) {
+    filter: drop-shadow(5px 5px 20px green)
+}
+
+.row img:nth-of-type(46) {
+    filter: drop-shadow(5px 5px 20px black)
+}
+
+.row img:nth-of-type(47) {
+    filter: drop-shadow(5px 5px 20px gray)
+}
+
+.row img:nth-of-type(48) {
+    filter: drop-shadow(5px 5px 20px rgb(179, 179, 94))
+}
+
+.row img:nth-of-type(50) {
+    filter: drop-shadow(5px 5px 20px rgb(175, 62, 175))
+}
+
+.row img:nth-of-type(51) {
+    filter: drop-shadow(5px 5px 20px rgb(236, 236, 132))
+}
+
+.row img:nth-of-type(52) {
+    filter: drop-shadow(5px 5px 20px blue)
+}
+
+.row img:nth-of-type(53) {
+    filter: drop-shadow(5px 5px 20px rgb(85, 3, 85))
+}
+
+.row img:nth-of-type(54) {
+    filter: drop-shadow(5px 5px 20px lightblue)
+}
+
+.row img:nth-of-type(55) {
+    filter: drop-shadow(5px 5px 20px rgb(178, 15, 178))
+}
+
